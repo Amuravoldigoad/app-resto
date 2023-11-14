@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color:#e32227;
+    color:black;
+    text-align:center;
+    padding: 20px 0;
+}
+
+header h1{
+    font-size: 32px;
+    margin: 0;
+}
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav a{
+    text-decoration:none;
+    color:#000;
+}
+
+.menu{
+    max-width: 855px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0,5);
+}
+
+
+.menu-item{
+    margin: 0px auto 20px auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    display: inline-table;
+    left:10px;
+}
+
+.menu-item img{
+    max-width: 100%;
+    height: auto;
+}
+
+.menu-item p{
+    color: #777;
+}.menu-item .harga{
+    color: #fff;
+    font-weight: bold;
+}
+.menu-item .order-button{
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.menu-item .order-button:hover{
+    background-color: #555;
+    padding: 10px 20px; 
+}
+
+.contact{
+    max-width: 855px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0,5);
+}
+.contact h2{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.contact p{
+    margin: 10px 0;
+}
+
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+@media (max-width:768px){
+    header nav ul{
+        text-align: center;
+    }
+    header nav ul li{
+        display: block;
+        margin: 10px 0;
+    }
+}
