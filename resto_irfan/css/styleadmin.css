@@ -1,0 +1,119 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    width: 250px;
+    background-color: #333;
+    color: #fff;
+    height: 100%;
+    position: fixed;
+    overflow-y: auto;
+}
+
+.sidebar ul{
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li{
+    padding: 15px;
+}
+
+.sidebar ul li a{
+    color: #fff;
+    text-decoration: none;
+    align-items: center;
+}
+
+.sidebar ul li a i{
+    margin-right: 10px;
+}
+
+.content{
+    margin-left: 250px;
+    padding: 20px;
+}
+
+.content h1{
+    margin-top: 0;
+}
+
+.topbar{
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.topbar a{
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+    background-color: #d91d1d;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+}
+
+.judul{
+    margin-top: 20px;
+    display: flex;
+}
+
+.judul a{
+    padding: 10px 20px;
+    background-color: rgba(4, 136,136);
+    text-decoration: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.judul .keterangan{
+    text-align: center;
+    font-weight: bold;
+    margin: auto;
+}
+
+.data{
+    margin-top: 20px;
+}
+
+.data table{
+    width:100%;
+    margin-top: 10px;
+}
+.datat table tr td{
+    padding: 5px;
+    border: 1px solid #000;
+}
+
+.btn-edit{
+    padding: 2px;
+    background-color: #d0ff00;
+    border-radius: 2px;
+}
+
+.btn-hapus{
+    padding: 2px;
+    background-color: #d91d1d;
+    border-radius: 2px;
+}
+
+.data-input table{
+    margin-top: 20px;
+}
+
+.btn-add{
+    padding: 10px 20px;
+    background-color: rgba(4, 136,136);
+    text-decoration: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    border:none;
+}
